@@ -1,0 +1,5 @@
+services:
+	-
+		class: PHPStan\Reflection\PHPParser\PhpParserNameClassReflectionExtension
+		tags:
+			- phpstan.broker.propertiesClassReflectionExtension
