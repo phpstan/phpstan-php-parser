@@ -46,7 +46,7 @@ class PhpParserNameClassReflectionExtensionTest extends \PHPStan\Testing\TestCas
 		bool $expectedHas,
 		string $className,
 		string $propertyName
-	)
+	): void
 	{
 		$broker = $this->createBroker();
 		$classReflection = $broker->getClass($className);
