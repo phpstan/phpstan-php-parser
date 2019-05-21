@@ -11,7 +11,7 @@ This extension provides the following feature:
 
 * If you register `PhpParser\NodeVisitor\NameResolver` visitor on `PhpParser\NodeTraverser`, new `$namespacedName` property becomes available on nodes that already have a `$name` property. This extension defines that property.
 
-## Usage
+## Installation
 
 To use this extension, require it in [Composer](https://getcomposer.org/):
 
@@ -19,9 +19,15 @@ To use this extension, require it in [Composer](https://getcomposer.org/):
 composer require --dev phpstan/phpstan-php-parser
 ```
 
-And include extension.neon in your project's PHPStan config:
+If you also install [phpstan/extension-installer](https://github.com/phpstan/extension-installer) then you're all set!
+
+<details>
+  <summary>Manual installation</summary>
+
+If you don't want to use `phpstan/extension-installer`, include extension.neon in your project's PHPStan config:
 
 ```
 includes:
-	- vendor/phpstan/phpstan-php-parser/extension.neon
+    - vendor/phpstan/phpstan-php-parser/extension.neon
 ```
+</details>
