@@ -55,7 +55,7 @@ class NamespacedNameProperty implements \PHPStan\Reflection\PropertyReflection
 
 	public function canChangeTypeAfterAssignment(): bool
 	{
-		return false;
+		return true;
 	}
 
 	public function isReadable(): bool
