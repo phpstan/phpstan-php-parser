@@ -14,9 +14,13 @@ class NamespacedNameProperty implements \PHPStan\Reflection\PropertyReflection
 	/** @var \PHPStan\Reflection\ClassReflection */
 	private $declaringClass;
 
+	/** @var Type */
+	private $type;
+
 	public function __construct(ClassReflection $declaringClass)
 	{
 		$this->declaringClass = $declaringClass;
+		$this->type = new ObjectType(Name::class);
 	}
 
 	public function getDeclaringClass(): ClassReflection
@@ -39,9 +43,19 @@ class NamespacedNameProperty implements \PHPStan\Reflection\PropertyReflection
 		return true;
 	}
 
-	public function getType(): Type
+	public function getReadableType(): Type
 	{
-		return new ObjectType(Name::class);
+		return $this->type;
+	}
+
+	public function getWritableType(): Type
+	{
+		return $this->type;
+	}
+
+	public function canChangeTypeAfterAssignment(): bool
+	{
+		return false;
 	}
 
 	public function isReadable(): bool
