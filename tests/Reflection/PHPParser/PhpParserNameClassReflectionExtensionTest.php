@@ -5,6 +5,9 @@ namespace PHPStan\Reflection\PHPParser;
 class PhpParserNameClassReflectionExtensionTest extends \PHPStan\Testing\TestCase
 {
 
+	/**
+	 * @return array<array{bool, string, string}>
+	 */
 	public function dataHasProperty(): array
 	{
 		return [
