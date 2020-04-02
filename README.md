@@ -1,6 +1,6 @@
 # PHP-Parser extension for PHPStan
 
-[![Build Status](https://travis-ci.org/phpstan/phpstan-php-parser.svg)](https://travis-ci.org/phpstan/phpstan-php-parser)
+[![Build Status](https://travis-ci.com/phpstan/phpstan-php-parser.svg?branch=master)](https://travis-ci.com/phpstan/phpstan-php-parser)
 [![Latest Stable Version](https://poser.pugx.org/phpstan/phpstan-php-parser/v/stable)](https://packagist.org/packages/phpstan/phpstan-php-parser)
 [![License](https://poser.pugx.org/phpstan/phpstan-php-parser/license)](https://packagist.org/packages/phpstan/phpstan-php-parser)
 
