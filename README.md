@@ -4,7 +4,7 @@
 [![Latest Stable Version](https://poser.pugx.org/phpstan/phpstan-php-parser/v/stable)](https://packagist.org/packages/phpstan/phpstan-php-parser)
 [![License](https://poser.pugx.org/phpstan/phpstan-php-parser/license)](https://packagist.org/packages/phpstan/phpstan-php-parser)
 
-* [PHPStan](https://github.com/phpstan/phpstan)
+* [PHPStan](https://phpstan.org/)
 * [PHP-Parser](https://github.com/nikic/php-parser)
 
 This extension provides the following feature:
