@@ -2,7 +2,7 @@
 
 namespace PHPStan\Reflection\PHPParser;
 
-class PhpParserNameClassReflectionExtensionTest extends \PHPStan\Testing\TestCase
+class PhpParserNameClassReflectionExtensionTest extends \PHPStan\Testing\PHPStanTestCase
 {
 
 	/**
