@@ -1,9 +1,6 @@
 includes:
+	- extension.neon
 	- vendor/phpstan/phpstan-phpunit/extension.neon
 	- vendor/phpstan/phpstan-phpunit/rules.neon
 	- vendor/phpstan/phpstan-strict-rules/rules.neon
 	- vendor/phpstan/phpstan/conf/bleedingEdge.neon
-
-parameters:
-	ignoreErrors:
-		- '#Dynamic call to static method PHPUnit\\Framework#'

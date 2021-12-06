@@ -1,5 +1,6 @@
-services:
-	-
-		class: PHPStan\Reflection\PHPParser\PhpParserNameClassReflectionExtension
-		tags:
-			- phpstan.broker.propertiesClassReflectionExtension
+parameters:
+	stubFiles:
+		- stubs/Const_.stub
+		- stubs/Function_.stub
+		- stubs/ClassLike.stub
+		- stubs/Name.stub

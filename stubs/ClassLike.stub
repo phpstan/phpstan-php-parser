@@ -1,0 +1,13 @@
+<?php declare(strict_types=1);
+
+namespace PhpParser\Node\Stmt;
+
+use PhpParser\Node;
+
+abstract class ClassLike
+{
+
+    /** @var Node\Name|null Namespaced name (if using NameResolver) */
+    public $namespacedName;
+
+}

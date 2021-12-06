@@ -1,0 +1,11 @@
+<?php declare(strict_types=1);
+
+namespace PhpParser\Node;
+
+class Const_
+{
+
+    /** @var Name|null Namespaced name (if using NameResolver) */
+    public $namespacedName;
+
+}
