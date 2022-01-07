@@ -10,7 +10,7 @@ class NodeFinder
      * Find all nodes satisfying a filter callback.
      *
      * @param Node|Node[] $nodes  Single node or array of nodes to search in
-     * @param callable(Node $node):bool $filter Filter callback: function(Node $node) : bool
+     * @param callable(Node $node): bool $filter Filter callback: function(Node $node) : bool
      *
      * @return Node[] Found nodes satisfying the filter callback
      */
@@ -22,7 +22,7 @@ class NodeFinder
      * Find first node satisfying a filter callback.
      *
      * @param Node|Node[] $nodes  Single node or array of nodes to search in
-     * @param callable(Node $node):bool $filter Filter callback: function(Node $node) : bool
+     * @param callable(Node $node): bool $filter Filter callback: function(Node $node) : bool
      *
      * @return null|Node Found node (or null if none found)
      */
