@@ -4,6 +4,10 @@ namespace PhpParser;
 
 use PhpParser\Node;
 
+interface Node
+{
+}
+
 class NodeFinder
 {
     /**
