@@ -4,3 +4,4 @@ parameters:
 		- stubs/Function_.stub
 		- stubs/ClassLike.stub
 		- stubs/Name.stub
+		- stubs/NodeFinder.stub
