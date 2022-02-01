@@ -7,7 +7,7 @@
     {
       "matchPaths": ["+(composer.json)"],
       "enabled": true,
-      "groupName": "build-cs"
+      "groupName": "root-composer"
     },
     {
       "matchPaths": ["build-cs/**"],
