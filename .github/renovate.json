@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "rangeStrategy": "update-lockfile",
+  "packageRules": [
+    {
+      "matchPaths": ["build-cs/**"],
+      "enabled": true,
+      "groupName": "build-cs"
+    },
+    {
+      "matchPaths": [".github/**"],
+      "enabled": true,
+      "groupName": "github-actions"
+    }
+  ]
+}
