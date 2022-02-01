@@ -5,6 +5,11 @@
   "rangeStrategy": "update-lockfile",
   "packageRules": [
     {
+      "matchPaths": ["+(composer.json)"],
+      "enabled": true,
+      "groupName": "build-cs"
+    },
+    {
       "matchPaths": ["build-cs/**"],
       "enabled": true,
       "groupName": "build-cs"
