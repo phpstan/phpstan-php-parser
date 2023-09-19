@@ -1,3 +1,5 @@
+⚠️ This extension is no longer maintained. `nikic/PHP-Parser` has all the correct types in its source code, so this extension is no longer needed. ⚠️
+
 # PHP-Parser extension for PHPStan
 
 [![Build](https://github.com/phpstan/phpstan-php-parser/workflows/Build/badge.svg)](https://github.com/phpstan/phpstan-php-parser/actions)
